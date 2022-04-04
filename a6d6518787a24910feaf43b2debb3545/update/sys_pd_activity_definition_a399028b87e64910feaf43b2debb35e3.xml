@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <input_display_preferences>team_id_group_id=standard;message=standard;collect_inputs_from_user=standard;channel_name=standard;</input_display_preferences>
+        <inputs/>
+        <label>Send Message to Teams Channel</label>
+        <name>send_message_to_teams_channel</name>
+        <source>91d90a8b87e64910feaf43b2debb3562</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:19:33</sys_created_on>
+        <sys_id>a399028b87e64910feaf43b2debb35e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send Message to Teams Channel</sys_name>
+        <sys_package display_value="teamsexp" source="x_snc_teamsexp">a6d6518787a24910feaf43b2debb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="teamsexp">a6d6518787a24910feaf43b2debb3545</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_a399028b87e64910feaf43b2debb35e3</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=a399028b87e64910feaf43b2debb35e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>a399028b87e64910feaf43b2debb35e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>24cdc243872a4910feaf43b2debb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <value/>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>a399028b87e64910feaf43b2debb35e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>60cdc243872a4910feaf43b2debb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>a399028b87e64910feaf43b2debb35e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>a8cdc243872a4910feaf43b2debb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <value>{{vl.Send Message to Teams Channel./end.collect_data}}</value>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>a399028b87e64910feaf43b2debb35e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>e4cdc243872a4910feaf43b2debb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <value>{{vl.Send Message to Teams Channel./end.tagline}}</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_91d90a8b87e64910feaf43b2debb3562^id=a399028b87e64910feaf43b2debb35e3"/>
+    <sys_element_mapping action="delete_multiple" query="id=a399028b87e64910feaf43b2debb35e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>a4cdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send Message to Teams Channel.8acd34d0-f1ea-4f1f-b9f6-ec7dfbeddf3a./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>20cdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>68cdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send Message to Teams Channel./end.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>e0cdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>eccdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send Message to Teams Channel./end.collect_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>a399028b87e64910feaf43b2debb35e3</id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 20:21:09</sys_created_on>
+        <sys_id>2ccdc243872a4910feaf43b2debb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 20:21:09</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send Message to Teams Channel./end.tagline}}</value>
+    </sys_element_mapping>
+</record_update>

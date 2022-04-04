@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="teamsexp">a6d6518787a24910feaf43b2debb3545</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2022-04-03 18:37:36</sys_created_on>
+        <sys_id>2b06758b87664910feaf43b2debb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_flow_data</sys_name>
+        <sys_package display_value="teamsexp" source="x_snc_teamsexp">a6d6518787a24910feaf43b2debb3545</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="teamsexp">a6d6518787a24910feaf43b2debb3545</sys_scope>
+        <sys_update_name>sys_scope_privilege_2b06758b87664910feaf43b2debb35f4</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2022-04-03 18:37:36</sys_updated_on>
+        <target_name>sys_flow_data</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

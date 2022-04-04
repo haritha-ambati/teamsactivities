@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="chat_type" table="var__m_sys_hub_flow_input_85d759c787a24910feaf43b2debb35fa" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>chat_type</element>
+            <name>var__m_sys_hub_flow_input_85d759c787a24910feaf43b2debb35fa</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2022-04-03 16:25:34</sys_created_on>
+            <sys_id>55d799c787a24910feaf43b2debb352e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="teamsexp" source="x_snc_teamsexp">a6d6518787a24910feaf43b2debb3545</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="teamsexp">a6d6518787a24910feaf43b2debb3545</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2022-04-03 16:25:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>chat_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Channel</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_85d759c787a24910feaf43b2debb35fa</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2022-04-03 16:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d799c787a24910feaf43b2debb352e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2022-04-03 16:25:34</sys_updated_on>
+            <value>Group</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>chat_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct Message</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_85d759c787a24910feaf43b2debb35fa</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2022-04-03 16:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99d799c787a24910feaf43b2debb352f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2022-04-03 16:25:34</sys_updated_on>
+            <value>Direct_Message</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
